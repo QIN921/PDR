@@ -1,0 +1,3061 @@
+[{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f579"
+  },
+  "timestamp": {
+    "$numberLong": "1666596629768"
+  },
+  "time_rel": 0,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:15",
+  "gyroscopex": -3,
+  "gyroscopey": -32,
+  "gyroscopez": -34,
+  "accx": -0.4051513671875,
+  "accy": -0.89276123046875,
+  "accz": -0.17279052734375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f57b"
+  },
+  "timestamp": {
+    "$numberLong": "1666596631429"
+  },
+  "time_rel": 1661,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:15",
+  "gyroscopex": 119,
+  "gyroscopey": 336,
+  "gyroscopez": 68,
+  "accx": -0.5291748046875,
+  "accy": -0.862060546875,
+  "accz": -0.13458251953125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f57d"
+  },
+  "timestamp": {
+    "$numberLong": "1666596631563"
+  },
+  "time_rel": 1795,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:15",
+  "gyroscopex": -196,
+  "gyroscopey": 386,
+  "gyroscopez": 523,
+  "accx": -0.69158935546875,
+  "accy": -0.93988037109375,
+  "accz": -0.13446044921875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f57f"
+  },
+  "timestamp": {
+    "$numberLong": "1666596631686"
+  },
+  "time_rel": 1918,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:15",
+  "gyroscopex": -492,
+  "gyroscopey": 158,
+  "gyroscopez": 790,
+  "accx": -0.759765625,
+  "accy": -0.74102783203125,
+  "accz": -0.35870361328125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f581"
+  },
+  "timestamp": {
+    "$numberLong": "1666596631824"
+  },
+  "time_rel": 2056,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:15",
+  "gyroscopex": -1085,
+  "gyroscopey": -492,
+  "gyroscopez": 1558,
+  "accx": -0.65576171875,
+  "accy": -0.6923828125,
+  "accz": -0.18499755859375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f583"
+  },
+  "timestamp": {
+    "$numberLong": "1666596631968"
+  },
+  "time_rel": 2200,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:15",
+  "gyroscopex": -205,
+  "gyroscopey": 477,
+  "gyroscopez": 637,
+  "accx": -0.2677001953125,
+  "accy": -0.51715087890625,
+  "accz": -0.2113037109375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f585"
+  },
+  "timestamp": {
+    "$numberLong": "1666596632103"
+  },
+  "time_rel": 2335,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:15",
+  "gyroscopex": 875,
+  "gyroscopey": -313,
+  "gyroscopez": -2352,
+  "accx": -0.4356689453125,
+  "accy": -1.0963134765625,
+  "accz": -0.19287109375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f587"
+  },
+  "timestamp": {
+    "$numberLong": "1666596632245"
+  },
+  "time_rel": 2477,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:16",
+  "gyroscopex": 265,
+  "gyroscopey": -1353,
+  "gyroscopez": -2036,
+  "accx": -0.53167724609375,
+  "accy": -1.17864990234375,
+  "accz": 0.04656982421875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f589"
+  },
+  "timestamp": {
+    "$numberLong": "1666596632374"
+  },
+  "time_rel": 2606,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:16",
+  "gyroscopex": 223,
+  "gyroscopey": -848,
+  "gyroscopez": -1467,
+  "accx": -0.38519287109375,
+  "accy": -0.93792724609375,
+  "accz": -0.02227783203125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f58b"
+  },
+  "timestamp": {
+    "$numberLong": "1666596632495"
+  },
+  "time_rel": 2727,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:16",
+  "gyroscopex": 343,
+  "gyroscopey": -1052,
+  "gyroscopez": -798,
+  "accx": -0.37213134765625,
+  "accy": -0.85003662109375,
+  "accz": -0.21148681640625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f58d"
+  },
+  "timestamp": {
+    "$numberLong": "1666596632617"
+  },
+  "time_rel": 2849,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:16",
+  "gyroscopex": 135,
+  "gyroscopey": -795,
+  "gyroscopez": -530,
+  "accx": -0.4705810546875,
+  "accy": -0.9169921875,
+  "accz": -0.275390625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f58f"
+  },
+  "timestamp": {
+    "$numberLong": "1666596632744"
+  },
+  "time_rel": 2976,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:16",
+  "gyroscopex": -55,
+  "gyroscopey": 575,
+  "gyroscopez": 609,
+  "accx": -0.5118408203125,
+  "accy": -1.10882568359375,
+  "accz": -0.15185546875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f591"
+  },
+  "timestamp": {
+    "$numberLong": "1666596632872"
+  },
+  "time_rel": 3104,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:16",
+  "gyroscopex": -337,
+  "gyroscopey": 2041,
+  "gyroscopez": 1651,
+  "accx": -0.54022216796875,
+  "accy": -1.137451171875,
+  "accz": 0.06243896484375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f593"
+  },
+  "timestamp": {
+    "$numberLong": "1666596632991"
+  },
+  "time_rel": 3223,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:16",
+  "gyroscopex": -1031,
+  "gyroscopey": 1672,
+  "gyroscopez": 2096,
+  "accx": -0.470703125,
+  "accy": -1.09783935546875,
+  "accz": 0.01416015625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f595"
+  },
+  "timestamp": {
+    "$numberLong": "1666596633111"
+  },
+  "time_rel": 3343,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:16",
+  "gyroscopex": -722,
+  "gyroscopey": 546,
+  "gyroscopez": 2550,
+  "accx": -0.41888427734375,
+  "accy": -0.77862548828125,
+  "accz": 0.02008056640625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f597"
+  },
+  "timestamp": {
+    "$numberLong": "1666596633229"
+  },
+  "time_rel": 3461,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:17",
+  "gyroscopex": -207,
+  "gyroscopey": 827,
+  "gyroscopez": 1566,
+  "accx": -0.23101806640625,
+  "accy": -0.50567626953125,
+  "accz": -0.10540771484375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f599"
+  },
+  "timestamp": {
+    "$numberLong": "1666596633340"
+  },
+  "time_rel": 3572,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:17",
+  "gyroscopex": 676,
+  "gyroscopey": -455,
+  "gyroscopez": -1608,
+  "accx": -0.3687744140625,
+  "accy": -0.91162109375,
+  "accz": -0.18475341796875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f59b"
+  },
+  "timestamp": {
+    "$numberLong": "1666596633468"
+  },
+  "time_rel": 3700,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:17",
+  "gyroscopex": 564,
+  "gyroscopey": -1919,
+  "gyroscopez": -3229,
+  "accx": -0.77215576171875,
+  "accy": -1.1826171875,
+  "accz": -0.1119384765625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f59d"
+  },
+  "timestamp": {
+    "$numberLong": "1666596633584"
+  },
+  "time_rel": 3816,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:17",
+  "gyroscopex": 430,
+  "gyroscopey": -252,
+  "gyroscopez": -1527,
+  "accx": -0.5091552734375,
+  "accy": -0.897216796875,
+  "accz": -0.05157470703125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f59f"
+  },
+  "timestamp": {
+    "$numberLong": "1666596633698"
+  },
+  "time_rel": 3930,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:17",
+  "gyroscopex": 43,
+  "gyroscopey": -447,
+  "gyroscopez": -350,
+  "accx": -0.32574462890625,
+  "accy": -0.80816650390625,
+  "accz": 0.02392578125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5a1"
+  },
+  "timestamp": {
+    "$numberLong": "1666596633818"
+  },
+  "time_rel": 4050,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:17",
+  "gyroscopex": 391,
+  "gyroscopey": -902,
+  "gyroscopez": -509,
+  "accx": -0.37506103515625,
+  "accy": -0.88372802734375,
+  "accz": -0.1171875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5a3"
+  },
+  "timestamp": {
+    "$numberLong": "1666596633945"
+  },
+  "time_rel": 4177,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:17",
+  "gyroscopex": 245,
+  "gyroscopey": -821,
+  "gyroscopez": -286,
+  "accx": -0.351806640625,
+  "accy": -0.96612548828125,
+  "accz": -0.15576171875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5a5"
+  },
+  "timestamp": {
+    "$numberLong": "1666596634079"
+  },
+  "time_rel": 4311,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:17",
+  "gyroscopex": 113,
+  "gyroscopey": -112,
+  "gyroscopez": 207,
+  "accx": -0.58990478515625,
+  "accy": -0.98663330078125,
+  "accz": -0.14984130859375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5a7"
+  },
+  "timestamp": {
+    "$numberLong": "1666596634223"
+  },
+  "time_rel": 4455,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:18",
+  "gyroscopex": -55,
+  "gyroscopey": 2197,
+  "gyroscopez": 979,
+  "accx": -0.68408203125,
+  "accy": -1.04986572265625,
+  "accz": -0.02667236328125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5a9"
+  },
+  "timestamp": {
+    "$numberLong": "1666596634360"
+  },
+  "time_rel": 4592,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:18",
+  "gyroscopex": -1276,
+  "gyroscopey": -661,
+  "gyroscopez": 1988,
+  "accx": -0.7760009765625,
+  "accy": -1.04779052734375,
+  "accz": 0.12274169921875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5ad"
+  },
+  "timestamp": {
+    "$numberLong": "1666596634590"
+  },
+  "time_rel": 4822,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:18",
+  "gyroscopex": -182,
+  "gyroscopey": 614,
+  "gyroscopez": 982,
+  "accx": -0.2813720703125,
+  "accy": -0.41571044921875,
+  "accz": -0.22637939453125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5af"
+  },
+  "timestamp": {
+    "$numberLong": "1666596634706"
+  },
+  "time_rel": 4938,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:18",
+  "gyroscopex": 179,
+  "gyroscopey": 81,
+  "gyroscopez": -308,
+  "accx": -0.46942138671875,
+  "accy": -0.71533203125,
+  "accz": -0.1893310546875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5b1"
+  },
+  "timestamp": {
+    "$numberLong": "1666596634835"
+  },
+  "time_rel": 5067,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:18",
+  "gyroscopex": 1047,
+  "gyroscopey": -140,
+  "gyroscopez": -2845,
+  "accx": -0.57440185546875,
+  "accy": -1.11334228515625,
+  "accz": -0.17132568359375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5b3"
+  },
+  "timestamp": {
+    "$numberLong": "1666596634975"
+  },
+  "time_rel": 5207,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:18",
+  "gyroscopex": 608,
+  "gyroscopey": -1359,
+  "gyroscopez": -1547,
+  "accx": -0.47601318359375,
+  "accy": -0.97125244140625,
+  "accz": -0.06927490234375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5b5"
+  },
+  "timestamp": {
+    "$numberLong": "1666596635091"
+  },
+  "time_rel": 5323,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:18",
+  "gyroscopex": 534,
+  "gyroscopey": -398,
+  "gyroscopez": -722,
+  "accx": -0.3228759765625,
+  "accy": -0.830810546875,
+  "accz": -0.02093505859375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5b7"
+  },
+  "timestamp": {
+    "$numberLong": "1666596635208"
+  },
+  "time_rel": 5440,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:19",
+  "gyroscopex": 823,
+  "gyroscopey": -1077,
+  "gyroscopez": -441,
+  "accx": -0.4051513671875,
+  "accy": -0.961669921875,
+  "accz": -0.12261962890625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5b9"
+  },
+  "timestamp": {
+    "$numberLong": "1666596635340"
+  },
+  "time_rel": 5572,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:19",
+  "gyroscopex": 408,
+  "gyroscopey": -1284,
+  "gyroscopez": -235,
+  "accx": -0.4097900390625,
+  "accy": -0.96539306640625,
+  "accz": -0.1854248046875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5bb"
+  },
+  "timestamp": {
+    "$numberLong": "1666596635460"
+  },
+  "time_rel": 5692,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:19",
+  "gyroscopex": 35,
+  "gyroscopey": -183,
+  "gyroscopez": 305,
+  "accx": -0.51898193359375,
+  "accy": -0.9935302734375,
+  "accz": -0.1614990234375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5bd"
+  },
+  "timestamp": {
+    "$numberLong": "1666596635581"
+  },
+  "time_rel": 5813,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:19",
+  "gyroscopex": -264,
+  "gyroscopey": 523,
+  "gyroscopez": 758,
+  "accx": -0.50775146484375,
+  "accy": -1.07763671875,
+  "accz": -0.055908203125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5bf"
+  },
+  "timestamp": {
+    "$numberLong": "1666596635722"
+  },
+  "time_rel": 5954,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:19",
+  "gyroscopex": -806,
+  "gyroscopey": 2346,
+  "gyroscopez": 1411,
+  "accx": -0.326171875,
+  "accy": -1.1851806640625,
+  "accz": 0.10125732421875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5c1"
+  },
+  "timestamp": {
+    "$numberLong": "1666596635848"
+  },
+  "time_rel": 6080,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:19",
+  "gyroscopex": -865,
+  "gyroscopey": 516,
+  "gyroscopez": 2412,
+  "accx": -0.8486328125,
+  "accy": -1.086669921875,
+  "accz": 0.06304931640625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5c3"
+  },
+  "timestamp": {
+    "$numberLong": "1666596635981"
+  },
+  "time_rel": 6213,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:19",
+  "gyroscopex": -1011,
+  "gyroscopey": 1048,
+  "gyroscopez": 2235,
+  "accx": -0.4239501953125,
+  "accy": -0.646484375,
+  "accz": -0.1728515625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5c5"
+  },
+  "timestamp": {
+    "$numberLong": "1666596636105"
+  },
+  "time_rel": 6337,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:19",
+  "gyroscopex": -22,
+  "gyroscopey": 522,
+  "gyroscopez": 423,
+  "accx": -0.2930908203125,
+  "accy": -0.59478759765625,
+  "accz": -0.201416015625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5c7"
+  },
+  "timestamp": {
+    "$numberLong": "1666596636220"
+  },
+  "time_rel": 6452,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:20",
+  "gyroscopex": 664,
+  "gyroscopey": -62,
+  "gyroscopez": -1124,
+  "accx": -0.302978515625,
+  "accy": -0.853759765625,
+  "accz": -0.2388916015625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5c9"
+  },
+  "timestamp": {
+    "$numberLong": "1666596636343"
+  },
+  "time_rel": 6575,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:20",
+  "gyroscopex": 1322,
+  "gyroscopey": -379,
+  "gyroscopez": -3070,
+  "accx": -0.4920654296875,
+  "accy": -1.17523193359375,
+  "accz": -0.346435546875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5cb"
+  },
+  "timestamp": {
+    "$numberLong": "1666596636487"
+  },
+  "time_rel": 6719,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:20",
+  "gyroscopex": 691,
+  "gyroscopey": -565,
+  "gyroscopez": -1364,
+  "accx": -0.61773681640625,
+  "accy": -0.954833984375,
+  "accz": -0.06219482421875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5cd"
+  },
+  "timestamp": {
+    "$numberLong": "1666596636599"
+  },
+  "time_rel": 6831,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:20",
+  "gyroscopex": 608,
+  "gyroscopey": -50,
+  "gyroscopez": -843,
+  "accx": -0.29608154296875,
+  "accy": -0.96533203125,
+  "accz": -0.1876220703125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5cf"
+  },
+  "timestamp": {
+    "$numberLong": "1666596636741"
+  },
+  "time_rel": 6973,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:20",
+  "gyroscopex": 156,
+  "gyroscopey": -806,
+  "gyroscopez": -595,
+  "accx": -0.457275390625,
+  "accy": -0.95355224609375,
+  "accz": -0.20330810546875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5d1"
+  },
+  "timestamp": {
+    "$numberLong": "1666596636869"
+  },
+  "time_rel": 7101,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:20",
+  "gyroscopex": 182,
+  "gyroscopey": 812,
+  "gyroscopez": 569,
+  "accx": -0.41302490234375,
+  "accy": -1.0185546875,
+  "accz": -0.12884521484375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5d3"
+  },
+  "timestamp": {
+    "$numberLong": "1666596637007"
+  },
+  "time_rel": 7239,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:20",
+  "gyroscopex": -330,
+  "gyroscopey": 1372,
+  "gyroscopez": 1366,
+  "accx": -0.464599609375,
+  "accy": -1.08978271484375,
+  "accz": 0.080322265625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5d5"
+  },
+  "timestamp": {
+    "$numberLong": "1666596637123"
+  },
+  "time_rel": 7355,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:20",
+  "gyroscopex": -699,
+  "gyroscopey": 1664,
+  "gyroscopez": 1427,
+  "accx": -0.52288818359375,
+  "accy": -1.0107421875,
+  "accz": -0.00042724609375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5d7"
+  },
+  "timestamp": {
+    "$numberLong": "1666596637266"
+  },
+  "time_rel": 7498,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:21",
+  "gyroscopex": -702,
+  "gyroscopey": 466,
+  "gyroscopez": 1858,
+  "accx": -0.73504638671875,
+  "accy": -0.92120361328125,
+  "accz": 0.0396728515625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5d9"
+  },
+  "timestamp": {
+    "$numberLong": "1666596637382"
+  },
+  "time_rel": 7614,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:21",
+  "gyroscopex": -635,
+  "gyroscopey": -249,
+  "gyroscopez": 1818,
+  "accx": -0.60650634765625,
+  "accy": -0.6925048828125,
+  "accz": -0.2781982421875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5db"
+  },
+  "timestamp": {
+    "$numberLong": "1666596637496"
+  },
+  "time_rel": 7728,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:21",
+  "gyroscopex": -276,
+  "gyroscopey": 275,
+  "gyroscopez": 229,
+  "accx": -0.2357177734375,
+  "accy": -0.78265380859375,
+  "accz": -0.1328125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5dd"
+  },
+  "timestamp": {
+    "$numberLong": "1666596637641"
+  },
+  "time_rel": 7873,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:21",
+  "gyroscopex": 781,
+  "gyroscopey": 270,
+  "gyroscopez": -2830,
+  "accx": -0.31201171875,
+  "accy": -1.2044677734375,
+  "accz": -0.10919189453125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5e1"
+  },
+  "timestamp": {
+    "$numberLong": "1666596638028"
+  },
+  "time_rel": 8260,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:21",
+  "gyroscopex": 442,
+  "gyroscopey": -1126,
+  "gyroscopez": -380,
+  "accx": -0.49609375,
+  "accy": -0.923583984375,
+  "accz": -0.25189208984375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5e3"
+  },
+  "timestamp": {
+    "$numberLong": "1666596638157"
+  },
+  "time_rel": 8389,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:22",
+  "gyroscopex": 143,
+  "gyroscopey": -746,
+  "gyroscopez": 133,
+  "accx": -0.3487548828125,
+  "accy": -0.93878173828125,
+  "accz": -0.15948486328125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5e5"
+  },
+  "timestamp": {
+    "$numberLong": "1666596638297"
+  },
+  "time_rel": 8529,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:22",
+  "gyroscopex": -230,
+  "gyroscopey": 514,
+  "gyroscopez": 796,
+  "accx": -0.32537841796875,
+  "accy": -0.99908447265625,
+  "accz": -0.1505126953125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5e7"
+  },
+  "timestamp": {
+    "$numberLong": "1666596638422"
+  },
+  "time_rel": 8654,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:22",
+  "gyroscopex": -674,
+  "gyroscopey": 2702,
+  "gyroscopez": 1496,
+  "accx": -0.4937744140625,
+  "accy": -1.27447509765625,
+  "accz": -0.01202392578125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5e9"
+  },
+  "timestamp": {
+    "$numberLong": "1666596638552"
+  },
+  "time_rel": 8784,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:22",
+  "gyroscopex": -2032,
+  "gyroscopey": -462,
+  "gyroscopez": 1238,
+  "accx": -0.62353515625,
+  "accy": -1.01470947265625,
+  "accz": -0.08160400390625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5eb"
+  },
+  "timestamp": {
+    "$numberLong": "1666596638667"
+  },
+  "time_rel": 8899,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:22",
+  "gyroscopex": -1647,
+  "gyroscopey": -63,
+  "gyroscopez": 1595,
+  "accx": -0.3072509765625,
+  "accy": -0.7510986328125,
+  "accz": -0.235595703125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5ed"
+  },
+  "timestamp": {
+    "$numberLong": "1666596638799"
+  },
+  "time_rel": 9031,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:22",
+  "gyroscopex": -1396,
+  "gyroscopey": -843,
+  "gyroscopez": -258,
+  "accx": -0.33819580078125,
+  "accy": -0.49346923828125,
+  "accz": -0.21502685546875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5ef"
+  },
+  "timestamp": {
+    "$numberLong": "1666596638934"
+  },
+  "time_rel": 9166,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:22",
+  "gyroscopex": -165,
+  "gyroscopey": 184,
+  "gyroscopez": -1494,
+  "accx": -0.50750732421875,
+  "accy": -1.0223388671875,
+  "accz": -0.10845947265625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5f1"
+  },
+  "timestamp": {
+    "$numberLong": "1666596639065"
+  },
+  "time_rel": 9297,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:22",
+  "gyroscopex": 995,
+  "gyroscopey": -421,
+  "gyroscopez": -2693,
+  "accx": -0.61865234375,
+  "accy": -1.2432861328125,
+  "accz": -0.0863037109375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5f3"
+  },
+  "timestamp": {
+    "$numberLong": "1666596639202"
+  },
+  "time_rel": 9434,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:23",
+  "gyroscopex": 639,
+  "gyroscopey": -1141,
+  "gyroscopez": -1162,
+  "accx": -0.5020751953125,
+  "accy": -0.90093994140625,
+  "accz": -0.05194091796875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5f5"
+  },
+  "timestamp": {
+    "$numberLong": "1666596639341"
+  },
+  "time_rel": 9573,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:23",
+  "gyroscopex": 422,
+  "gyroscopey": -1544,
+  "gyroscopez": -840,
+  "accx": -0.4234619140625,
+  "accy": -0.8515625,
+  "accz": -0.15911865234375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5f7"
+  },
+  "timestamp": {
+    "$numberLong": "1666596639464"
+  },
+  "time_rel": 9696,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:23",
+  "gyroscopex": 193,
+  "gyroscopey": -1703,
+  "gyroscopez": -73,
+  "accx": -0.4649658203125,
+  "accy": -0.94097900390625,
+  "accz": -0.25592041015625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5f9"
+  },
+  "timestamp": {
+    "$numberLong": "1666596639576"
+  },
+  "time_rel": 9808,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:23",
+  "gyroscopex": 197,
+  "gyroscopey": -958,
+  "gyroscopez": -15,
+  "accx": -0.400390625,
+  "accy": -1.009765625,
+  "accz": -0.297119140625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5fb"
+  },
+  "timestamp": {
+    "$numberLong": "1666596639691"
+  },
+  "time_rel": 9923,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:23",
+  "gyroscopex": -133,
+  "gyroscopey": 279,
+  "gyroscopez": 625,
+  "accx": -0.395751953125,
+  "accy": -1.0072021484375,
+  "accz": -0.21630859375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5fd"
+  },
+  "timestamp": {
+    "$numberLong": "1666596639815"
+  },
+  "time_rel": 10047,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:23",
+  "gyroscopex": -1017,
+  "gyroscopey": 1838,
+  "gyroscopez": 1204,
+  "accx": -0.46484375,
+  "accy": -1.28350830078125,
+  "accz": -0.024658203125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f5ff"
+  },
+  "timestamp": {
+    "$numberLong": "1666596639957"
+  },
+  "time_rel": 10189,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:23",
+  "gyroscopex": -1799,
+  "gyroscopey": -410,
+  "gyroscopez": 1300,
+  "accx": -0.44305419921875,
+  "accy": -1.0162353515625,
+  "accz": -0.052001953125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f601"
+  },
+  "timestamp": {
+    "$numberLong": "1666596640073"
+  },
+  "time_rel": 10305,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:23",
+  "gyroscopex": -1379,
+  "gyroscopey": -975,
+  "gyroscopez": 1452,
+  "accx": -0.528564453125,
+  "accy": -0.687255859375,
+  "accz": -0.166015625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f603"
+  },
+  "timestamp": {
+    "$numberLong": "1666596640192"
+  },
+  "time_rel": 10424,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:24",
+  "gyroscopex": -582,
+  "gyroscopey": -212,
+  "gyroscopez": 1136,
+  "accx": -0.47900390625,
+  "accy": -0.48382568359375,
+  "accz": -0.2186279296875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f605"
+  },
+  "timestamp": {
+    "$numberLong": "1666596640317"
+  },
+  "time_rel": 10549,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:24",
+  "gyroscopex": 153,
+  "gyroscopey": 268,
+  "gyroscopez": -854,
+  "accx": -0.4656982421875,
+  "accy": -0.76611328125,
+  "accz": -0.1954345703125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f607"
+  },
+  "timestamp": {
+    "$numberLong": "1666596640440"
+  },
+  "time_rel": 10672,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:24",
+  "gyroscopex": 932,
+  "gyroscopey": 160,
+  "gyroscopez": -2240,
+  "accx": -0.55029296875,
+  "accy": -1.02667236328125,
+  "accz": -0.06353759765625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f609"
+  },
+  "timestamp": {
+    "$numberLong": "1666596640570"
+  },
+  "time_rel": 10802,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:24",
+  "gyroscopex": 1262,
+  "gyroscopey": -186,
+  "gyroscopez": -1988,
+  "accx": -0.47943115234375,
+  "accy": -1.09130859375,
+  "accz": -0.07916259765625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f60b"
+  },
+  "timestamp": {
+    "$numberLong": "1666596640710"
+  },
+  "time_rel": 10942,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:24",
+  "gyroscopex": 582,
+  "gyroscopey": -345,
+  "gyroscopez": -537,
+  "accx": -0.4251708984375,
+  "accy": -0.75811767578125,
+  "accz": -0.13739013671875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f60d"
+  },
+  "timestamp": {
+    "$numberLong": "1666596640828"
+  },
+  "time_rel": 11060,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:24",
+  "gyroscopex": 693,
+  "gyroscopey": -825,
+  "gyroscopez": -480,
+  "accx": -0.3319091796875,
+  "accy": -0.91497802734375,
+  "accz": -0.256103515625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f60f"
+  },
+  "timestamp": {
+    "$numberLong": "1666596640971"
+  },
+  "time_rel": 11203,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:24",
+  "gyroscopex": 169,
+  "gyroscopey": -503,
+  "gyroscopez": -36,
+  "accx": -0.31243896484375,
+  "accy": -0.9605712890625,
+  "accz": -0.177734375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f611"
+  },
+  "timestamp": {
+    "$numberLong": "1666596641086"
+  },
+  "time_rel": 11318,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:24",
+  "gyroscopex": -305,
+  "gyroscopey": 578,
+  "gyroscopez": 317,
+  "accx": -0.4127197265625,
+  "accy": -1.068115234375,
+  "accz": -0.07611083984375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f613"
+  },
+  "timestamp": {
+    "$numberLong": "1666596641218"
+  },
+  "time_rel": 11450,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:25",
+  "gyroscopex": -572,
+  "gyroscopey": 881,
+  "gyroscopez": 767,
+  "accx": -0.5379638671875,
+  "accy": -1.12701416015625,
+  "accz": 0.0247802734375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f615"
+  },
+  "timestamp": {
+    "$numberLong": "1666596641348"
+  },
+  "time_rel": 11580,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:25",
+  "gyroscopex": -1078,
+  "gyroscopey": 1132,
+  "gyroscopez": 1010,
+  "accx": -0.51483154296875,
+  "accy": -1.02545166015625,
+  "accz": 0.001220703125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f617"
+  },
+  "timestamp": {
+    "$numberLong": "1666596641491"
+  },
+  "time_rel": 11723,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:25",
+  "gyroscopex": -1470,
+  "gyroscopey": -913,
+  "gyroscopez": 1533,
+  "accx": -0.636962890625,
+  "accy": -0.80377197265625,
+  "accz": -0.13055419921875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f619"
+  },
+  "timestamp": {
+    "$numberLong": "1666596641630"
+  },
+  "time_rel": 11862,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:25",
+  "gyroscopex": -184,
+  "gyroscopey": 454,
+  "gyroscopez": 1295,
+  "accx": -0.43255615234375,
+  "accy": -0.53424072265625,
+  "accz": -0.2386474609375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f61b"
+  },
+  "timestamp": {
+    "$numberLong": "1666596641763"
+  },
+  "time_rel": 11995,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:25",
+  "gyroscopex": 462,
+  "gyroscopey": 992,
+  "gyroscopez": 256,
+  "accx": -0.35089111328125,
+  "accy": -0.76324462890625,
+  "accz": -0.3162841796875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f61d"
+  },
+  "timestamp": {
+    "$numberLong": "1666596641890"
+  },
+  "time_rel": 12122,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:25",
+  "gyroscopex": 1478,
+  "gyroscopey": 715,
+  "gyroscopez": -1941,
+  "accx": -0.356689453125,
+  "accy": -1.0867919921875,
+  "accz": -0.2919921875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f61f"
+  },
+  "timestamp": {
+    "$numberLong": "1666596642003"
+  },
+  "time_rel": 12235,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:25",
+  "gyroscopex": 1517,
+  "gyroscopey": -598,
+  "gyroscopez": -1753,
+  "accx": -0.29248046875,
+  "accy": -1.02587890625,
+  "accz": -0.273681640625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f621"
+  },
+  "timestamp": {
+    "$numberLong": "1666596642133"
+  },
+  "time_rel": 12365,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:25",
+  "gyroscopex": 982,
+  "gyroscopey": -436,
+  "gyroscopez": -800,
+  "accx": -0.59356689453125,
+  "accy": -1.02911376953125,
+  "accz": 0.08319091796875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f623"
+  },
+  "timestamp": {
+    "$numberLong": "1666596642259"
+  },
+  "time_rel": 12491,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:26",
+  "gyroscopex": 750,
+  "gyroscopey": -608,
+  "gyroscopez": 75,
+  "accx": -0.2850341796875,
+  "accy": -0.85870361328125,
+  "accz": -0.07257080078125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f625"
+  },
+  "timestamp": {
+    "$numberLong": "1666596642401"
+  },
+  "time_rel": 12633,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:26",
+  "gyroscopex": 53,
+  "gyroscopey": -1205,
+  "gyroscopez": 448,
+  "accx": -0.2747802734375,
+  "accy": -0.89764404296875,
+  "accz": -0.04901123046875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f627"
+  },
+  "timestamp": {
+    "$numberLong": "1666596642531"
+  },
+  "time_rel": 12763,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:26",
+  "gyroscopex": 55,
+  "gyroscopey": -867,
+  "gyroscopez": 341,
+  "accx": -0.3701171875,
+  "accy": -1.19354248046875,
+  "accz": -0.07281494140625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f629"
+  },
+  "timestamp": {
+    "$numberLong": "1666596642664"
+  },
+  "time_rel": 12896,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:26",
+  "gyroscopex": -843,
+  "gyroscopey": -979,
+  "gyroscopez": 873,
+  "accx": -0.4114990234375,
+  "accy": -1.13165283203125,
+  "accz": -0.182373046875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f62b"
+  },
+  "timestamp": {
+    "$numberLong": "1666596642805"
+  },
+  "time_rel": 13037,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:26",
+  "gyroscopex": -1757,
+  "gyroscopey": -1007,
+  "gyroscopez": 772,
+  "accx": -0.3634033203125,
+  "accy": -1.12506103515625,
+  "accz": -0.2025146484375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f62d"
+  },
+  "timestamp": {
+    "$numberLong": "1666596642923"
+  },
+  "time_rel": 13155,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:26",
+  "gyroscopex": -1984,
+  "gyroscopey": -1712,
+  "gyroscopez": 1158,
+  "accx": -0.58489990234375,
+  "accy": -1.0352783203125,
+  "accz": -0.2218017578125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f62f"
+  },
+  "timestamp": {
+    "$numberLong": "1666596643060"
+  },
+  "time_rel": 13292,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:26",
+  "gyroscopex": -1751,
+  "gyroscopey": -1464,
+  "gyroscopez": 1453,
+  "accx": -0.4534912109375,
+  "accy": -0.56207275390625,
+  "accz": -0.15130615234375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f631"
+  },
+  "timestamp": {
+    "$numberLong": "1666596643199"
+  },
+  "time_rel": 13431,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:27",
+  "gyroscopex": -464,
+  "gyroscopey": 489,
+  "gyroscopez": -227,
+  "accx": -0.349853515625,
+  "accy": -0.4932861328125,
+  "accz": -0.1939697265625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f633"
+  },
+  "timestamp": {
+    "$numberLong": "1666596643319"
+  },
+  "time_rel": 13551,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:27",
+  "gyroscopex": -109,
+  "gyroscopey": 3,
+  "gyroscopez": -1609,
+  "accx": -0.61083984375,
+  "accy": -0.999267578125,
+  "accz": -0.09527587890625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f635"
+  },
+  "timestamp": {
+    "$numberLong": "1666596643438"
+  },
+  "time_rel": 13670,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:27",
+  "gyroscopex": 850,
+  "gyroscopey": 50,
+  "gyroscopez": -2398,
+  "accx": -0.5487060546875,
+  "accy": -1.14404296875,
+  "accz": -0.163818359375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f637"
+  },
+  "timestamp": {
+    "$numberLong": "1666596643565"
+  },
+  "time_rel": 13797,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:27",
+  "gyroscopex": 241,
+  "gyroscopey": -1207,
+  "gyroscopez": -1091,
+  "accx": -0.5372314453125,
+  "accy": -0.91729736328125,
+  "accz": -0.02105712890625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f639"
+  },
+  "timestamp": {
+    "$numberLong": "1666596643705"
+  },
+  "time_rel": 13937,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:27",
+  "gyroscopex": 297,
+  "gyroscopey": -1413,
+  "gyroscopez": -979,
+  "accx": -0.42974853515625,
+  "accy": -0.90869140625,
+  "accz": -0.18487548828125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f63b"
+  },
+  "timestamp": {
+    "$numberLong": "1666596643823"
+  },
+  "time_rel": 14055,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:27",
+  "gyroscopex": 251,
+  "gyroscopey": -1005,
+  "gyroscopez": -451,
+  "accx": -0.45074462890625,
+  "accy": -0.9307861328125,
+  "accz": -0.3594970703125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f63d"
+  },
+  "timestamp": {
+    "$numberLong": "1666596643955"
+  },
+  "time_rel": 14187,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:27",
+  "gyroscopex": 58,
+  "gyroscopey": 267,
+  "gyroscopez": 516,
+  "accx": -0.51434326171875,
+  "accy": -1.08721923828125,
+  "accz": -0.20263671875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f63f"
+  },
+  "timestamp": {
+    "$numberLong": "1666596644081"
+  },
+  "time_rel": 14313,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:27",
+  "gyroscopex": -98,
+  "gyroscopey": 1047,
+  "gyroscopez": 863,
+  "accx": -0.48675537109375,
+  "accy": -1.0015869140625,
+  "accz": -0.1253662109375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f641"
+  },
+  "timestamp": {
+    "$numberLong": "1666596644207"
+  },
+  "time_rel": 14439,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:28",
+  "gyroscopex": -729,
+  "gyroscopey": 1532,
+  "gyroscopez": 1699,
+  "accx": -0.48541259765625,
+  "accy": -1.16986083984375,
+  "accz": -0.0950927734375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f643"
+  },
+  "timestamp": {
+    "$numberLong": "1666596644323"
+  },
+  "time_rel": 14555,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:28",
+  "gyroscopex": -1235,
+  "gyroscopey": 315,
+  "gyroscopez": 1840,
+  "accx": -0.54437255859375,
+  "accy": -0.94879150390625,
+  "accz": -0.05413818359375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f645"
+  },
+  "timestamp": {
+    "$numberLong": "1666596644459"
+  },
+  "time_rel": 14691,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:28",
+  "gyroscopex": -958,
+  "gyroscopey": -394,
+  "gyroscopez": 1417,
+  "accx": -0.35955810546875,
+  "accy": -0.56719970703125,
+  "accz": -0.14678955078125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f647"
+  },
+  "timestamp": {
+    "$numberLong": "1666596644592"
+  },
+  "time_rel": 14824,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:28",
+  "gyroscopex": 315,
+  "gyroscopey": -20,
+  "gyroscopez": -400,
+  "accx": -0.33660888671875,
+  "accy": -0.6201171875,
+  "accz": -0.243408203125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f649"
+  },
+  "timestamp": {
+    "$numberLong": "1666596644720"
+  },
+  "time_rel": 14952,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:28",
+  "gyroscopex": 616,
+  "gyroscopey": 83,
+  "gyroscopez": -1632,
+  "accx": -0.49810791015625,
+  "accy": -0.98175048828125,
+  "accz": -0.17535400390625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f64b"
+  },
+  "timestamp": {
+    "$numberLong": "1666596644854"
+  },
+  "time_rel": 15086,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:28",
+  "gyroscopex": 1010,
+  "gyroscopey": -206,
+  "gyroscopez": -1863,
+  "accx": -0.5029296875,
+  "accy": -1.07476806640625,
+  "accz": -0.08892822265625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f64d"
+  },
+  "timestamp": {
+    "$numberLong": "1666596644986"
+  },
+  "time_rel": 15218,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:28",
+  "gyroscopex": 669,
+  "gyroscopey": -957,
+  "gyroscopez": -1065,
+  "accx": -0.468994140625,
+  "accy": -0.870361328125,
+  "accz": -0.06292724609375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f64f"
+  },
+  "timestamp": {
+    "$numberLong": "1666596645130"
+  },
+  "time_rel": 15362,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:28",
+  "gyroscopex": 525,
+  "gyroscopey": -1065,
+  "gyroscopez": -915,
+  "accx": -0.5029296875,
+  "accy": -0.96209716796875,
+  "accz": -0.30029296875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f651"
+  },
+  "timestamp": {
+    "$numberLong": "1666596645242"
+  },
+  "time_rel": 15474,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:29",
+  "gyroscopex": 106,
+  "gyroscopey": -719,
+  "gyroscopez": -359,
+  "accx": -0.60357666015625,
+  "accy": -0.99957275390625,
+  "accz": -0.37200927734375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f653"
+  },
+  "timestamp": {
+    "$numberLong": "1666596645366"
+  },
+  "time_rel": 15598,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:29",
+  "gyroscopex": -264,
+  "gyroscopey": 1177,
+  "gyroscopez": 1104,
+  "accx": -0.60955810546875,
+  "accy": -0.95880126953125,
+  "accz": -0.14300537109375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f655"
+  },
+  "timestamp": {
+    "$numberLong": "1666596645509"
+  },
+  "time_rel": 15741,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:29",
+  "gyroscopex": -708,
+  "gyroscopey": 1201,
+  "gyroscopez": 1487,
+  "accx": -0.7362060546875,
+  "accy": -1.29388427734375,
+  "accz": 0.2371826171875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f657"
+  },
+  "timestamp": {
+    "$numberLong": "1666596645630"
+  },
+  "time_rel": 15862,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:29",
+  "gyroscopex": -974,
+  "gyroscopey": -30,
+  "gyroscopez": 2640,
+  "accx": -0.47314453125,
+  "accy": -1.11676025390625,
+  "accz": -0.081298828125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f659"
+  },
+  "timestamp": {
+    "$numberLong": "1666596645751"
+  },
+  "time_rel": 15983,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:29",
+  "gyroscopex": -414,
+  "gyroscopey": 964,
+  "gyroscopez": 1753,
+  "accx": -0.30322265625,
+  "accy": -0.57427978515625,
+  "accz": -0.180908203125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f65b"
+  },
+  "timestamp": {
+    "$numberLong": "1666596645872"
+  },
+  "time_rel": 16104,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:29",
+  "gyroscopex": 23,
+  "gyroscopey": 605,
+  "gyroscopez": 605,
+  "accx": -0.27044677734375,
+  "accy": -0.4586181640625,
+  "accz": -0.2197265625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f65d"
+  },
+  "timestamp": {
+    "$numberLong": "1666596645996"
+  },
+  "time_rel": 16228,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:29",
+  "gyroscopex": 990,
+  "gyroscopey": -51,
+  "gyroscopez": -2097,
+  "accx": -0.46868896484375,
+  "accy": -1.0810546875,
+  "accz": -0.22515869140625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f65f"
+  },
+  "timestamp": {
+    "$numberLong": "1666596646139"
+  },
+  "time_rel": 16371,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:29",
+  "gyroscopex": 1229,
+  "gyroscopey": -139,
+  "gyroscopez": -2155,
+  "accx": -0.62152099609375,
+  "accy": -1.24932861328125,
+  "accz": -0.15582275390625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f661"
+  },
+  "timestamp": {
+    "$numberLong": "1666596646273"
+  },
+  "time_rel": 16505,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:30",
+  "gyroscopex": 1061,
+  "gyroscopey": -480,
+  "gyroscopez": -1240,
+  "accx": -0.54241943359375,
+  "accy": -0.9659423828125,
+  "accz": -0.0732421875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f663"
+  },
+  "timestamp": {
+    "$numberLong": "1666596646391"
+  },
+  "time_rel": 16623,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:30",
+  "gyroscopex": 220,
+  "gyroscopey": -1477,
+  "gyroscopez": -714,
+  "accx": -0.42608642578125,
+  "accy": -0.8602294921875,
+  "accz": -0.02392578125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f665"
+  },
+  "timestamp": {
+    "$numberLong": "1666596646517"
+  },
+  "time_rel": 16749,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:30",
+  "gyroscopex": 380,
+  "gyroscopey": -1037,
+  "gyroscopez": -780,
+  "accx": -0.567626953125,
+  "accy": -0.91937255859375,
+  "accz": -0.18963623046875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f667"
+  },
+  "timestamp": {
+    "$numberLong": "1666596646659"
+  },
+  "time_rel": 16891,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:30",
+  "gyroscopex": 181,
+  "gyroscopey": -255,
+  "gyroscopez": 607,
+  "accx": -0.55731201171875,
+  "accy": -1.03656005859375,
+  "accz": -0.1402587890625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f669"
+  },
+  "timestamp": {
+    "$numberLong": "1666596646766"
+  },
+  "time_rel": 16998,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:30",
+  "gyroscopex": -229,
+  "gyroscopey": 430,
+  "gyroscopez": 1340,
+  "accx": -0.40380859375,
+  "accy": -1.0592041015625,
+  "accz": -0.12823486328125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f66b"
+  },
+  "timestamp": {
+    "$numberLong": "1666596646881"
+  },
+  "time_rel": 17113,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:30",
+  "gyroscopex": -153,
+  "gyroscopey": 2304,
+  "gyroscopez": 913,
+  "accx": -0.58868408203125,
+  "accy": -1.2952880859375,
+  "accz": 0.26287841796875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f66d"
+  },
+  "timestamp": {
+    "$numberLong": "1666596647025"
+  },
+  "time_rel": 17257,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:30",
+  "gyroscopex": -496,
+  "gyroscopey": 360,
+  "gyroscopez": 2025,
+  "accx": -0.69610595703125,
+  "accy": -1.06298828125,
+  "accz": 0.1966552734375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f66f"
+  },
+  "timestamp": {
+    "$numberLong": "1666596647144"
+  },
+  "time_rel": 17376,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:30",
+  "gyroscopex": -421,
+  "gyroscopey": 279,
+  "gyroscopez": 2072,
+  "accx": -0.4549560546875,
+  "accy": -0.70806884765625,
+  "accz": -0.18853759765625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f671"
+  },
+  "timestamp": {
+    "$numberLong": "1666596647288"
+  },
+  "time_rel": 17520,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:31",
+  "gyroscopex": -255,
+  "gyroscopey": 328,
+  "gyroscopez": 465,
+  "accx": -0.37646484375,
+  "accy": -0.49420166015625,
+  "accz": -0.1573486328125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f673"
+  },
+  "timestamp": {
+    "$numberLong": "1666596647410"
+  },
+  "time_rel": 17642,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:31",
+  "gyroscopex": 221,
+  "gyroscopey": -449,
+  "gyroscopez": -1656,
+  "accx": -0.46807861328125,
+  "accy": -0.906494140625,
+  "accz": -0.125732421875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f675"
+  },
+  "timestamp": {
+    "$numberLong": "1666596647534"
+  },
+  "time_rel": 17766,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:31",
+  "gyroscopex": 334,
+  "gyroscopey": -133,
+  "gyroscopez": -2383,
+  "accx": -0.45770263671875,
+  "accy": -1.18524169921875,
+  "accz": -0.12164306640625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f677"
+  },
+  "timestamp": {
+    "$numberLong": "1666596647657"
+  },
+  "time_rel": 17889,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:31",
+  "gyroscopex": 825,
+  "gyroscopey": -1390,
+  "gyroscopez": -1566,
+  "accx": -0.4227294921875,
+  "accy": -1.106201171875,
+  "accz": -0.1492919921875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f679"
+  },
+  "timestamp": {
+    "$numberLong": "1666596647771"
+  },
+  "time_rel": 18003,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:31",
+  "gyroscopex": 487,
+  "gyroscopey": -733,
+  "gyroscopez": -662,
+  "accx": -0.43951416015625,
+  "accy": -1.00982666015625,
+  "accz": 0.1195068359375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f67b"
+  },
+  "timestamp": {
+    "$numberLong": "1666596647899"
+  },
+  "time_rel": 18131,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:31",
+  "gyroscopex": 843,
+  "gyroscopey": -753,
+  "gyroscopez": -632,
+  "accx": -0.44854736328125,
+  "accy": -0.94671630859375,
+  "accz": -0.02777099609375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f67d"
+  },
+  "timestamp": {
+    "$numberLong": "1666596634471"
+  },
+  "time_rel": 4703,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:18",
+  "gyroscopex": -865,
+  "gyroscopey": 187,
+  "gyroscopez": 2498,
+  "accx": -0.404052734375,
+  "accy": -0.80535888671875,
+  "accz": -0.14666748046875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f67f"
+  },
+  "timestamp": {
+    "$numberLong": "1666596648159"
+  },
+  "time_rel": 18391,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:32",
+  "gyroscopex": 758,
+  "gyroscopey": -325,
+  "gyroscopez": 452,
+  "accx": -0.27301025390625,
+  "accy": -1.13824462890625,
+  "accz": -0.02655029296875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f681"
+  },
+  "timestamp": {
+    "$numberLong": "1666596648299"
+  },
+  "time_rel": 18531,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:32",
+  "gyroscopex": 121,
+  "gyroscopey": 396,
+  "gyroscopez": 848,
+  "accx": -0.09820556640625,
+  "accy": -0.89251708984375,
+  "accz": 0.5980224609375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f683"
+  },
+  "timestamp": {
+    "$numberLong": "1666596648421"
+  },
+  "time_rel": 18653,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:32",
+  "gyroscopex": 2139,
+  "gyroscopey": 383,
+  "gyroscopez": 707,
+  "accx": -0.26959228515625,
+  "accy": -0.8397216796875,
+  "accz": 0.66986083984375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f685"
+  },
+  "timestamp": {
+    "$numberLong": "1666596648539"
+  },
+  "time_rel": 18771,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:32",
+  "gyroscopex": 2102,
+  "gyroscopey": 2,
+  "gyroscopez": 152,
+  "accx": -0.2119140625,
+  "accy": -0.67633056640625,
+  "accz": -0.13037109375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f687"
+  },
+  "timestamp": {
+    "$numberLong": "1666596648681"
+  },
+  "time_rel": 18913,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:32",
+  "gyroscopex": -8,
+  "gyroscopey": 540,
+  "gyroscopez": -1628,
+  "accx": -0.95892333984375,
+  "accy": -0.32562255859375,
+  "accz": 0.0301513671875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f689"
+  },
+  "timestamp": {
+    "$numberLong": "1666596648804"
+  },
+  "time_rel": 19036,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:32",
+  "gyroscopex": -2631,
+  "gyroscopey": 2241,
+  "gyroscopez": -973,
+  "accx": -1.19915771484375,
+  "accy": -0.87420654296875,
+  "accz": 0.3148193359375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f68b"
+  },
+  "timestamp": {
+    "$numberLong": "1666596648935"
+  },
+  "time_rel": 19167,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:32",
+  "gyroscopex": -4244,
+  "gyroscopey": -596,
+  "gyroscopez": 940,
+  "accx": -0.6114501953125,
+  "accy": -1.8770751953125,
+  "accz": 0.9805908203125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f68d"
+  },
+  "timestamp": {
+    "$numberLong": "1666596649047"
+  },
+  "time_rel": 19279,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:32",
+  "gyroscopex": -257,
+  "gyroscopey": 848,
+  "gyroscopez": 2540,
+  "accx": -0.02764892578125,
+  "accy": -0.976806640625,
+  "accz": -0.15130615234375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f68f"
+  },
+  "timestamp": {
+    "$numberLong": "1666596649165"
+  },
+  "time_rel": 19397,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:33",
+  "gyroscopex": 145,
+  "gyroscopey": 841,
+  "gyroscopez": 909,
+  "accx": -0.102294921875,
+  "accy": -0.67303466796875,
+  "accz": -0.17803955078125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f691"
+  },
+  "timestamp": {
+    "$numberLong": "1666596649282"
+  },
+  "time_rel": 19514,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:33",
+  "gyroscopex": 630,
+  "gyroscopey": -103,
+  "gyroscopez": -1605,
+  "accx": -0.33349609375,
+  "accy": -0.83245849609375,
+  "accz": -0.13519287109375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f693"
+  },
+  "timestamp": {
+    "$numberLong": "1666596649404"
+  },
+  "time_rel": 19636,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:33",
+  "gyroscopex": 975,
+  "gyroscopey": 99,
+  "gyroscopez": -2297,
+  "accx": -0.5189208984375,
+  "accy": -1.11578369140625,
+  "accz": -0.130615234375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f695"
+  },
+  "timestamp": {
+    "$numberLong": "1666596649535"
+  },
+  "time_rel": 19767,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:33",
+  "gyroscopex": 1299,
+  "gyroscopey": -326,
+  "gyroscopez": -1834,
+  "accx": -0.52777099609375,
+  "accy": -1.15045166015625,
+  "accz": -0.1461181640625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f697"
+  },
+  "timestamp": {
+    "$numberLong": "1666596649658"
+  },
+  "time_rel": 19890,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:33",
+  "gyroscopex": 2,
+  "gyroscopey": -1507,
+  "gyroscopez": -728,
+  "accx": -0.55804443359375,
+  "accy": -0.97027587890625,
+  "accz": -0.1856689453125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f699"
+  },
+  "timestamp": {
+    "$numberLong": "1666596649780"
+  },
+  "time_rel": 20012,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:33",
+  "gyroscopex": -178,
+  "gyroscopey": -581,
+  "gyroscopez": -244,
+  "accx": -0.61273193359375,
+  "accy": -0.87646484375,
+  "accz": -0.11090087890625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f69b"
+  },
+  "timestamp": {
+    "$numberLong": "1666596649901"
+  },
+  "time_rel": 20133,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:33",
+  "gyroscopex": -231,
+  "gyroscopey": 1467,
+  "gyroscopez": 1388,
+  "accx": -0.57244873046875,
+  "accy": -1.1337890625,
+  "accz": -0.0321044921875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f69d"
+  },
+  "timestamp": {
+    "$numberLong": "1666596650031"
+  },
+  "time_rel": 20263,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:33",
+  "gyroscopex": -710,
+  "gyroscopey": 725,
+  "gyroscopez": 2023,
+  "accx": -0.552001953125,
+  "accy": -1.25787353515625,
+  "accz": -0.0745849609375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f69f"
+  },
+  "timestamp": {
+    "$numberLong": "1666596650156"
+  },
+  "time_rel": 20388,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:34",
+  "gyroscopex": -1399,
+  "gyroscopey": 192,
+  "gyroscopez": 2352,
+  "accx": -0.5028076171875,
+  "accy": -0.98089599609375,
+  "accz": -0.2132568359375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f6a1"
+  },
+  "timestamp": {
+    "$numberLong": "1666596650291"
+  },
+  "time_rel": 20523,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:34",
+  "gyroscopex": -739,
+  "gyroscopey": 187,
+  "gyroscopez": 1129,
+  "accx": -0.28912353515625,
+  "accy": -0.60260009765625,
+  "accz": -0.1929931640625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f6a3"
+  },
+  "timestamp": {
+    "$numberLong": "1666596650436"
+  },
+  "time_rel": 20668,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:34",
+  "gyroscopex": 227,
+  "gyroscopey": -273,
+  "gyroscopez": -1404,
+  "accx": -0.44580078125,
+  "accy": -0.720947265625,
+  "accz": -0.22381591796875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f6a5"
+  },
+  "timestamp": {
+    "$numberLong": "1666596650576"
+  },
+  "time_rel": 20808,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:34",
+  "gyroscopex": 396,
+  "gyroscopey": -71,
+  "gyroscopez": -1860,
+  "accx": -0.49456787109375,
+  "accy": -0.990478515625,
+  "accz": -0.21185302734375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f6a7"
+  },
+  "timestamp": {
+    "$numberLong": "1666596650716"
+  },
+  "time_rel": 20948,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:34",
+  "gyroscopex": 1232,
+  "gyroscopey": -890,
+  "gyroscopez": -2133,
+  "accx": -0.4842529296875,
+  "accy": -1.0738525390625,
+  "accz": -0.17913818359375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f6a9"
+  },
+  "timestamp": {
+    "$numberLong": "1666596650840"
+  },
+  "time_rel": 21072,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:34",
+  "gyroscopex": 828,
+  "gyroscopey": 134,
+  "gyroscopez": -1190,
+  "accx": -0.41827392578125,
+  "accy": -0.96331787109375,
+  "accz": -0.13470458984375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f6ab"
+  },
+  "timestamp": {
+    "$numberLong": "1666596650976"
+  },
+  "time_rel": 21208,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:34",
+  "gyroscopex": 660,
+  "gyroscopey": -891,
+  "gyroscopez": -970,
+  "accx": -0.52001953125,
+  "accy": -1.00091552734375,
+  "accz": -0.16839599609375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f6ad"
+  },
+  "timestamp": {
+    "$numberLong": "1666596651104"
+  },
+  "time_rel": 21336,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:34",
+  "gyroscopex": 100,
+  "gyroscopey": -673,
+  "gyroscopez": 92,
+  "accx": -0.56097412109375,
+  "accy": -0.9937744140625,
+  "accz": -0.19647216796875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f6af"
+  },
+  "timestamp": {
+    "$numberLong": "1666596651223"
+  },
+  "time_rel": 21455,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:35",
+  "gyroscopex": -731,
+  "gyroscopey": 997,
+  "gyroscopez": 1698,
+  "accx": -0.4031982421875,
+  "accy": -1.2264404296875,
+  "accz": -0.08685302734375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f6b1"
+  },
+  "timestamp": {
+    "$numberLong": "1666596651344"
+  },
+  "time_rel": 21576,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:35",
+  "gyroscopex": -1038,
+  "gyroscopey": 1488,
+  "gyroscopez": 1576,
+  "accx": -0.27056884765625,
+  "accy": -1.11187744140625,
+  "accz": -0.062255859375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f6b3"
+  },
+  "timestamp": {
+    "$numberLong": "1666596651466"
+  },
+  "time_rel": 21698,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:35",
+  "gyroscopex": -1106,
+  "gyroscopey": 713,
+  "gyroscopez": 1153,
+  "accx": -0.317138671875,
+  "accy": -0.99249267578125,
+  "accz": 0.0008544921875,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f6b5"
+  },
+  "timestamp": {
+    "$numberLong": "1666596637774"
+  },
+  "time_rel": 8006,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:21",
+  "gyroscopex": 1231,
+  "gyroscopey": -573,
+  "gyroscopez": -2911,
+  "accx": -0.52984619140625,
+  "accy": -1.15704345703125,
+  "accz": -0.12286376953125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f6b7"
+  },
+  "timestamp": {
+    "$numberLong": "1666596651737"
+  },
+  "time_rel": 21969,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:35",
+  "gyroscopex": -235,
+  "gyroscopey": -2121,
+  "gyroscopez": -1413,
+  "accx": -0.5042724609375,
+  "accy": -0.99200439453125,
+  "accz": -0.0885009765625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f6b9"
+  },
+  "timestamp": {
+    "$numberLong": "1666596651981"
+  },
+  "time_rel": 22213,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:35",
+  "gyroscopex": -69,
+  "gyroscopey": -1715,
+  "gyroscopez": -1368,
+  "accx": -0.490234375,
+  "accy": -0.9114990234375,
+  "accz": -0.02056884765625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f6bb"
+  },
+  "timestamp": {
+    "$numberLong": "1666596652120"
+  },
+  "time_rel": 22352,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:36",
+  "gyroscopex": -520,
+  "gyroscopey": -2272,
+  "gyroscopez": -603,
+  "accx": -0.48809814453125,
+  "accy": -0.8883056640625,
+  "accz": -0.04840087890625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f6bd"
+  },
+  "timestamp": {
+    "$numberLong": "1666596652244"
+  },
+  "time_rel": 22476,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:36",
+  "gyroscopex": -223,
+  "gyroscopey": -2071,
+  "gyroscopez": -390,
+  "accx": -0.36572265625,
+  "accy": -0.84942626953125,
+  "accz": -0.23626708984375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f6bf"
+  },
+  "timestamp": {
+    "$numberLong": "1666596652355"
+  },
+  "time_rel": 22587,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:36",
+  "gyroscopex": -676,
+  "gyroscopey": -2624,
+  "gyroscopez": -170,
+  "accx": -0.5411376953125,
+  "accy": -0.83831787109375,
+  "accz": -0.24566650390625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f6c1"
+  },
+  "timestamp": {
+    "$numberLong": "1666596652480"
+  },
+  "time_rel": 22712,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:36",
+  "gyroscopex": -355,
+  "gyroscopey": -1108,
+  "gyroscopez": 70,
+  "accx": -0.44024658203125,
+  "accy": -0.83502197265625,
+  "accz": -0.22833251953125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f6c3"
+  },
+  "timestamp": {
+    "$numberLong": "1666596652595"
+  },
+  "time_rel": 22827,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:36",
+  "gyroscopex": -331,
+  "gyroscopey": -1124,
+  "gyroscopez": 225,
+  "accx": -0.4454345703125,
+  "accy": -0.91876220703125,
+  "accz": -0.22149658203125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f6c5"
+  },
+  "timestamp": {
+    "$numberLong": "1666596652734"
+  },
+  "time_rel": 22966,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:36",
+  "gyroscopex": -145,
+  "gyroscopey": -697,
+  "gyroscopez": 168,
+  "accx": -0.39556884765625,
+  "accy": -0.86834716796875,
+  "accz": -0.1478271484375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f6c7"
+  },
+  "timestamp": {
+    "$numberLong": "1666596652865"
+  },
+  "time_rel": 23097,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:36",
+  "gyroscopex": -56,
+  "gyroscopey": 33,
+  "gyroscopez": 51,
+  "accx": -0.43035888671875,
+  "accy": -0.9619140625,
+  "accz": -0.10162353515625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f6c9"
+  },
+  "timestamp": {
+    "$numberLong": "1666596652999"
+  },
+  "time_rel": 23231,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:36",
+  "gyroscopex": -252,
+  "gyroscopey": -170,
+  "gyroscopez": 81,
+  "accx": -0.42352294921875,
+  "accy": -0.8848876953125,
+  "accz": -0.14141845703125,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f6cb"
+  },
+  "timestamp": {
+    "$numberLong": "1666596653125"
+  },
+  "time_rel": 23357,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:36",
+  "gyroscopex": -892,
+  "gyroscopey": -880,
+  "gyroscopez": 678,
+  "accx": -0.79266357421875,
+  "accy": -0.8272705078125,
+  "accz": -0.22857666015625,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f75f"
+  },
+  "timestamp": {
+    "$numberLong": "1666596648040"
+  },
+  "time_rel": 18272,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:31",
+  "gyroscopex": 853,
+  "gyroscopey": -466,
+  "gyroscopez": 99,
+  "accx": -0.39776611328125,
+  "accy": -1.04156494140625,
+  "accz": -0.01751708984375,
+  "isSwing": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d9da468a5b366677d8f79b"
+  },
+  "timestamp": {
+    "$numberLong": "1666596651607"
+  },
+  "time_rel": 21839,
+  "sample_batch": 30,
+  "sample_time": "2022-10-24,15:31:35",
+  "gyroscopex": -182,
+  "gyroscopey": -575,
+  "gyroscopez": -586,
+  "accx": -0.204345703125,
+  "accy": -0.73309326171875,
+  "accz": -0.18035888671875,
+  "isSwing": true,
+  "__v": 0
+}]
