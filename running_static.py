@@ -372,7 +372,7 @@ def plot_position(r: Running, p: Position):
     position_y = r.position_y
 
     img = plt.imread('background.png')
-    fig, ax = plt.subplots(figsize=(4, 3), dpi=200)
+    fig, ax = plt.subplots(figsize=(3, 2), dpi=200)
     ax.imshow(img, extent=[-4.5 - 0.153, 7.8 - 0.153, -3.4 - 0.506, 5.2 - 0.506])
     plt.scatter(0, 0, c='r', s=10)
     plt.plot(position_x, position_y, marker='1')
@@ -575,7 +575,7 @@ def csv_running(run_csv, pos_csv):
         # dic[i].plot_gyroscope()
         # dic[i].plot_acc()
         dic[i].pdr_position(offset=-90, init_position=init_position)
-        # plot_position(dic[i], pos)
+        plot_position(dic[i], pos)
         error = error_rate(dic[i].position_x, dic[i].position_y, gt)
         dic[i].error = error
 
@@ -584,7 +584,7 @@ def csv_running(run_csv, pos_csv):
 
         dic[i].get_inf(-90)
         ans.append(dic[i].inf)
-        # plt.show()
+    plt.show()
     return ans
 
 

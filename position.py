@@ -2,6 +2,8 @@ import csv
 import matplotlib.pyplot as plt
 import json
 import numpy as np
+import pywt
+import math
 
 
 class Position:
@@ -90,6 +92,61 @@ def error_rate(pos_x, pos_y, gt):
     return error_distance
 
 
+def denoise(data):
+    def sgn(num):
+        if num > 0:
+            return 1.0
+        elif num == 0:
+            return 0.0
+        else:
+            return -1.0
+
+    w = pywt.Wavelet('sym8')
+    [ca3, cd3, cd2, cd1] = pywt.wavedec(data, w, level=3)  # 分解波
+
+    length1 = len(cd1)
+    length0 = len(data)
+
+    Cd1 = np.array(cd1)
+    abs_cd1 = np.abs(Cd1)
+    median_cd1 = np.median(abs_cd1)
+
+    sigma = (1.0 / 0.6745) * median_cd1
+    lamda = sigma * math.sqrt(2.0 * math.log(float(length0), math.e))
+    # print(lamda)
+    usecoeffs = [ca3]
+
+    # 软硬阈值折中的方法
+    a = 0.2
+
+    for k in range(length1):
+        if abs(cd1[k]) >= lamda + 700:
+            cd1[k] = sgn(cd1[k]) * (abs(cd1[k]) - a * lamda)
+        else:
+            cd1[k] = 0.0
+
+    length2 = len(cd2)
+    for k in range(length2):
+        if abs(cd2[k]) >= lamda + 700:
+            cd2[k] = sgn(cd2[k]) * (abs(cd2[k]) - a * lamda)
+        else:
+            cd2[k] = 0.0
+
+    length3 = len(cd3)
+    for k in range(length3):
+        if abs(cd3[k]) >= lamda + 700:
+            cd3[k] = sgn(cd3[k]) * (abs(cd3[k]) - a * lamda)
+        else:
+            cd3[k] = 0.0
+
+    usecoeffs.append(cd3)
+    usecoeffs.append(cd2)
+    usecoeffs.append(cd1)
+    recoeffs = pywt.waverec(usecoeffs, w)
+
+    return recoeffs[:len(data)]
+
+
 def plot_xy(p: Position):
     fig, ax = plt.subplots(figsize=(4, 3), dpi=200)  # 初始化一张图
     img = plt.imread('background.png')
@@ -109,8 +166,6 @@ def csv_position(pos_csv):
     with open(pos_csv, 'r', encoding='utf-8') as csvfile:
         # 调用csv中的DictReader函数直接获取数据为字典形式
         reader = csv.DictReader(csvfile)
-        # 创建一个counts计数一下 看自己一共添加的数据条数
-        counts = 0
         min = 1e20
         for each in reader:
             if each['sample_batch'] not in dic.keys():
@@ -132,9 +187,15 @@ def csv_position(pos_csv):
             p.timestamp.append(each['timestamp'])
             p.sample_batch = each['sample_batch']
     gt = [[-1, 3.4, -1, -3.2], [-1, -3.2, 1.5, -3.2], [1.5, -3.2, 1.5, 3.4]]
-    lst = ['27', '28', '29', '30', '31', '32']
+    # lst = ['27', '28', '29', '30', '31', '32']
+    lst = ['28']
     for i in lst:
+        plot_xy(dic[i])
+        dic[i].x = denoise(dic[i].x)
+        dic[i].y = denoise(dic[i].y)
+        plot_xy(dic[i])
         dic[i].error = error_rate(dic[i].x, dic[i].y, gt)
+    plt.show()
     return dic
 
 
@@ -151,5 +212,5 @@ def json_position(pos_json):
 
 
 if __name__ == '__main__':
-    # csv_position('position.csv')
-    json_position('pos_28.json')
+    csv_position('position.csv')
+    # json_position('pos_28.json')
