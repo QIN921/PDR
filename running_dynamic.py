@@ -156,6 +156,7 @@ class Running:
         for index in range(len(self.step_max)):
             step_time.append([self.step_min[index][0], self.step_max[index][0]])
         self.step_time = step_time
+        self.length = [0.6 for _ in range(2*len(self.step_time))]
 
         # if self.step_time[-1][1] > 0 and mn_index != lens - 1:
         #     step += 1
@@ -239,14 +240,14 @@ class Running:
             dt = (self.timestamp[i + 1] - self.timestamp[i]) / 1000
             ax, ay, az = self.accx[i] - bias_ax, self.accy[i] - bias_ay, self.accz[i] - bias_az
             if self.model == 0:
-                az -= 1
+                az -= 2
             add = (ax * self.gyroscopex[i] + ay * self.gyroscopey[i] + az * self.gyroscopez[i]) * dt \
                 / np.sqrt(ax ** 2 + ay ** 2 + az ** 2) * 0.1
             if self.model == 0:
                 add /= 1.5
             else:
                 add /= 1.1
-            if self.timestamp[i] >= 3000:
+            if self.timestamp[i] >= 5000 and self.timestamp[i] <= 21000:
                 alpha_new += add
 
             # sign = np.sign(alpha)
@@ -363,10 +364,7 @@ class Running:
             step_time = [i[1] for i in self.step_time]
         for i in range(len(self.timestamp)):
             if self.timestamp[i] in step_time:
-                if self.model == 0:
-                    length = self.length[counter]
-                else:
-                    length = 0.6
+                length = self.length[counter]
                 # print(self.angle[i])
                 x += length * np.cos(self.angle[i] * np.pi / 180)
                 y += length * np.sin(self.angle[i] * np.pi / 180)
@@ -422,6 +420,7 @@ def plot_error(error_distance):
     for i in point:
         res = np.sum(error_distance <= i)
         lst.append(res / total)
+    print(maximum/len(error_distance))
     plt.figure()
     plt.plot(point, lst)
     plt.xlabel('Localization Error/m')
@@ -448,6 +447,10 @@ def error_rate(pos_x, pos_y, gt):
 
 
 def error_rate_gt(pos_x, pos_y, gt_x, gt_y):
+    print(pos_x)
+    print(pos_y)
+    print(gt_x)
+    print(gt_y)
     error = [0 for _ in range(len(pos_x))]
     if len(pos_x) >= len(gt_x) * 2 - 1:
         for i in range(len(gt_x)):
@@ -463,7 +466,7 @@ def error_rate_gt(pos_x, pos_y, gt_x, gt_y):
         begin = len(pos_x) - len(gt_x) + 1
         for i in range(offset):
             dis = line_magnitude(pos_x[2*begin-1+i], pos_y[2*begin-1+i], gt_x[begin+i], gt_y[begin+i])
-            error[i] = dis
+            error[2*begin-1+i] = dis
     return error
 
 
@@ -591,9 +594,9 @@ def csv_position(pos_csv):
             p.timestamp.append(each['timestamp'])
             p.sample_batch = each['sample_batch']
     gt = [[-1, 3.4, -1, -3.2], [-1, -3.2, 1.5, -3.2], [1.5, -3.2, 1.5, 3.4]]
-    lst = ['27', '28', '29', '30', '31', '32']
-    for i in lst:
-        dic[i].error = error_rate(dic[i].x, dic[i].y, gt)
+    # lst = ['27', '28', '29', '30', '31', '32']
+    # for i in lst:
+    #     dic[i].error = error_rate(dic[i].x, dic[i].y, gt)
     return dic
 
 
@@ -618,11 +621,10 @@ def csv_running(run_csv, pos_csv):
             # 将数据中需要转换类型的数据转换类型。原本全是字符串（string）
             each['timestamp'] = (int(each['timestamp']) - min)
             r.timestamp.append(each['timestamp'])
-
             each['accx'] = int(each['accx']) / 16384
             each['accy'] = int(each['accy']) / 16384
             each['accz'] = int(each['accz']) / 16384
-            if '26' < batch < '30':
+            if batch == '90':
                 each['accz'] = each['accz'] + 1
                 r.model = 0
             r.accx.append(each['accx'])
@@ -637,7 +639,7 @@ def csv_running(run_csv, pos_csv):
             r.gyroscopez.append(each['gyroscopez'])
     gt_x = [-1, -1, -1, -1, -1, -1, -0.6, 0.2, 1.2, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5]
     gt_y = [3.4, 2.2, 1, -0.2, -1.4, -2.6, -3.2, -3.2, -3.2, -2.6, -1.4, -0.2, 1, 2.2, 3.4]
-    lst = ['27', '28', '29', '30', '31', '32']
+    lst = ['90']
     # lst = ['30', '31', '32']
     # lst = ['27', '28', '29']
     # lst = ['27']
@@ -648,6 +650,7 @@ def csv_running(run_csv, pos_csv):
         pos.x = denoise(pos.x)
         pos.y = denoise(pos.y)
         init_position = begin_point(dic_position[i].x, dic_position[i].y, 10)
+        dic[i].model = 0
         if dic[i].model == 0:
             dic[i].gyroscopex = denoise(dic[i].gyroscopex)
             dic[i].gyroscopey = denoise(dic[i].gyroscopey)
@@ -655,7 +658,7 @@ def csv_running(run_csv, pos_csv):
             # dic[i].plot_gyroscope()
             dic[i].invalid_time()
             dic[i].step_counter_static()
-            # dic[i].plot_acc()
+            dic[i].plot_acc()
             # dic[i].plot_gyroscope()
             dic[i].step_length()
             dic[i].cal_angle(-90)
@@ -669,7 +672,8 @@ def csv_running(run_csv, pos_csv):
             dic[i].cal_angle(-90)
             dic[i].pdr_position(init_position)
             plot_position(dic[i], gt_x, gt_y)
-        dic[i].error = error_rate_gt(dic[i].position_x, dic[i].position_y, gt_x, gt_y)
+        # dic[i].error = error_rate_gt(dic[i].position_x, dic[i].position_y, gt_x, gt_y)
+        # print(dic[i].error)
         # plot_error(dic[i].error)
     plt.show()
 
@@ -709,7 +713,10 @@ def json_running(get_pdr_json):
         run.gyroscopez.append(each["gyroscopez"])
         run.accx.append(each["accx"])
         run.accy.append(each["accy"])
-        run.accz.append(each["accz"])
+        if run.model == 0:
+            run.accz.append(each["accz"]+1)
+        else:
+            run.accz.append(each["accz"])
         run.timestamp.append(each["time_rel"])
         run.time_rel.append(each["timestamp"])
         run.sample_time.append(each["sample_time"])
@@ -726,15 +733,16 @@ def json_running(get_pdr_json):
     run.pdr_position(init_position)
     run.error = error_rate_gt(run.position_x, run.position_y, gt_x, gt_y)
     run.get_inf()
-    # plot_position(run)
+    plot_position(run, gt_x, gt_y)
     # plot_error(run.error)
-    # plt.show()
+    plt.show()
     return run.inf
 
 
 def main():
     csv_running('running.csv', 'position.csv')
-    # a = json_running('get_pdr_29.json')
+    # a = json_running('pdr_31.json')
+    # print(a)
 
 
 if __name__ == '__main__':
